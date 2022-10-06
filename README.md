@@ -4,3 +4,13 @@
 # keylogger-python
 
 This is a simple keylogger which was coded in python. When the program runs it creates a log file in the desktop. You can change it by changing the loggin-directory
+
+To make the program run in background without getting a popup of cmd, use pythonw
+
+Using pythonw
+Just change the file extension of your python script from .py to .pyw and that’s it! Now, just double click the newly named .pyw file and it will run in the background.
+
+To kill,
+in windows, use 
+~tasklist
+~taskkill /PID <pid> pythonw.exe /F
